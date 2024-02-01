@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equalizer</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="equalizer_container">
+      <div id="equalizer">
+      </div>
+      <audio id="audioPlayer" controls></audio>
+      <div class="download_music">
+        <input type="file" accept="audio/*" onchange="loadAudio(this)">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
